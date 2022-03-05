@@ -10,8 +10,75 @@ text-decoration: none;
     width: 100%;
     height: 6575px;
 }
+#footer{
+    padding: 3.472vw 10.138vw 1.5972vw 8.472vw;
+    background-color:black ;
+    color: white;
+}
+#footer .footer{
+    display: flex;
+}
+#footer .left img{
+    width: 7.9861vw;
+    height:4.72vw;
+}
+#footer .left .sosial{
+    margin-top: 2.083vw;
+}
+#footer .left .sosial .insta{
+   width: 2.2916vw;
+   height: 2.2916vw;
+   margin-right:1.25vw;
+}
+#footer .left .sosial .fb{
+   width: 2.22vw;
+   height: 2.22vw;
+   margin-right:1.4583vw ;
+}
+#footer .left .sosial .wk{
+   width: 2.4305vw;
+   height: 2.4305vw;
+   margin-right:1.72vw ;
+}
+#footer .left .sosial .wp{
+   width: 2.361vw;
+   height: 2.361vw;
+   margin-right:0 ;
+}
+#footer .footer-note{
+  
+    height: 1.609027vw;
+    font-size: 1.25vw;
+    margin-top: 5.872vw;
+}
+#footer .right{
+    margin-left: 45.5vw;
+    display: flex;
+}
 
+#footer .right .contact-logos .phone{
+    width: 1.875vw;
+    height: 1.875vw;
+    margin-bottom: 1.39vw;
+    margin-right: 1.527vw;
+    display: block;
+}
 
+#footer .right .contact-logos .mail{
+    width: 1.875vw;
+    height: 1.25vw;
+    margin-right: 1.527vw;
+    display: block;
+   
+}
+#footer .right .contact .phone-p{
+    margin-bottom: 0.2083vw;
+}
+
+#footer .right .contact p{
+    height:2.77vw;
+    font-size: 1.7361vw;
+}
 
 
 
@@ -41,4 +108,18 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
         height:4524px;
    
     }
+    #footer .footer{
+        flex-direction: column;
+       
+    }
+    #footer .footer .right{
+        margin-left: 0;
+        margin-top: 3.472vw;
+        margin-bottom: 3.472vw;
+    }
+    #footer .right .contact-logos .phone{
+        margin-bottom: 1.5vw;
+    } 
+   
+    
 }
