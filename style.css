@@ -7,7 +7,7 @@ text-decoration: none;
 }
 .container{
     box-sizing: border-box;
-    width: 1440px;
+    width: 100%;
     height: 6575px;
 }
 
@@ -29,7 +29,7 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
 
 @media only screen and (min-width:991px)  and ( max-width:1279px ) {
     .container{
-        width:834px;
+      
         height:3800px;
     } 
 }
@@ -37,7 +37,7 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
 
 @media only screen and (min-width:320px) and ( max-width:991px ) {
     .container{
-        width:375px;
+      
         height:4524px;
    
     }
