@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,38 +10,157 @@ text-decoration: none;
 }
 .container{
     box-sizing: border-box;
-    width: 1440px;
+    width: 100%;
     height: 6575px;
 }
+/* third section */
+#third-section{
+    padding: 0 5.83% 0 5.83%;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 17.361%;
+    /* margin-top: 250px; */
 
+}
+#third-section .header{
+    margin-bottom: 7.517%;
+    padding-left:2.986%;
+    width: 62.847%;
+height: 6.45vw;
+}
+#third-section .header h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.819vw;
+    line-height: 101.38%;
+}
+#third-section .cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 
+}
+#third-section .cards .card{
+    margin-right: 2.943%;
+}
 
-
-
-
-
-
-
-
-
-
-
+#third-section .cards .card{
+  /* width: 399px; */
+  width:31.37%;
+    /* height: 328px; */
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 2.0833vw;
+    margin-bottom: 2.8472%;
+}
+#third-section .cards .card-margin{
+    margin-right: 0px;
+}
+#third-section .cards .card .card-header{
+    /* height: 160px; */
+    width: 100%;
+} 
+#third-section .cards .card .card-header img{
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+#third-section .cards .card .card-footer{
+    padding: 0.7638vw 0.9722vw 1.5972vw 1.3194vw;
+}
+#third-section .cards .card .card-footer .card-h3 {
+/* width: 365px; */
+height: 2.708%;
+padding-left: 1px;
+margin-bottom: 2.2vw;
+}
+#third-section .cards .card .card-footer .card-h3 h3{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 2.08vw;
+line-height: 130%;
+}
+ #third-section .cards .card .card-footer .card-p{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1.736vw;
+line-height: 130%;
+}
 
 /* Herkes öz yaratdığı sectionu responsive olaraq css-ni burda qeyd edəcək.
 container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verildiyi ölçülərdir. */
 
 @media only screen and (min-width:991px)  and ( max-width:1279px ) {
     .container{
-        width:834px;
         height:3800px;
     } 
+/* third section */
+ #third-section{
+    padding: 0 5.83% 0 5.83%;
+    margin-top: 17.221%;
+}
+#third-section .header{
+    margin-bottom: 6.595%;
+    padding-left:2.56954%;
+}
+#third-section .cards .card{
+    margin-right: 2.569%;
+}
+#third-section .cards .card-margin{
+    margin-right: 0px;
+}
+#third-section .cards .card{
+    width:31.621%;
+    margin-bottom: 2.8472%;
 }
 
-
+}
 @media only screen and (min-width:320px) and ( max-width:991px ) {
     .container{
-        width:375px;
+      
         height:4524px;
    
     }
+/* third section */
+#third-section{
+    padding: 0 0 0 9.06%;
+    margin-top: 22.6%;
+}
+#third-section .header{
+    margin-bottom: 9.509%;
+    width: 90.93%;
+height: 11.5573vw;
+}
+#third-section .header h2{
+    font-size: 6.933vw;
+}
+#third-section .cards{
+    flex-direction: column;
+    padding-left: 14.20vw;
+    width:100%;
+    padding-right: 23.06vw;
+}
+#third-section .cards .card{
+    width:100%;
+    border-radius: 3.727vw;
+    margin-bottom: 6.4426vw;
+}
+#third-section .cards .card{
+    margin-right: 0%;
+}
+#third-section .cards .card .card-footer{
+    padding: 1.368vw 1.7386vw 2.858vw 2.4853vw;
+}
+#third-section .cards .card .card-footer .card-h3 {
+height: 4.8453vw;
+padding-left: 1px;
+margin-bottom: 3.976vw;
+}
+#third-section .cards .card .card-footer .card-h3 h3{
+font-size: 3.733vw;
+}
+ #third-section .cards .card .card-footer .card-p{
+font-size: 3.2vw;
+}
 }
