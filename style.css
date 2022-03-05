@@ -1,15 +1,160 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     list-style-type: none;
     box-sizing: border-box;
-text-decoration: none;
+    text-decoration: none;
 }
-.container{
+
+.container {
     box-sizing: border-box;
-    width: 1440px;
+    /* width: 1440px; */
+    width: 100%;
     height: 6575px;
 }
+
+#header .header {
+    padding: 21px 246px 0 121px;
+    height: auto;
+}
+
+#header .logo {
+    margin-bottom: 97px;
+}
+
+#header .first-parameter, .second-parameter, .third-parameter {
+    display: flex;
+    align-items: center;
+
+
+}
+
+#header .first-parameter {
+    margin-right: 25px;
+
+}
+
+#header .online-courses, .time, .calendar {
+    width: 130px;
+    height: 32px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 3px;
+}
+
+
+
+#header .parametres {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#header .first-parameter img {
+    width: 22px;
+    height: 21px;
+    margin-right: 8px;
+
+
+}
+
+#header .second-parameter img {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+#header .third-parameter img {
+    width: 20px;
+    height: 22px;
+    margin-right: 13px;
+}
+
+#header .carousel {
+    display: flex;
+    margin-top: 29px;
+    justify-content: space-between;
+}
+
+#header .carousel .left h1 {
+    width: 628px;
+    height: 190px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 101.38%;
+
+}
+
+#header .carousel .left p {
+    width: 414px;
+    height: 62px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+#header .carousel-image {
+    position: relative;
+
+}
+
+
+
+#header .carousel-image .carousel-ellipse {
+    width: 274px;
+    height: 41px;
+    background: #EFEFEF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    left: 40px;
+    z-index: -1;
+}
+
+#header .carousel .right {
+    margin-top: -26px;
+}
+
+#header .author {
+    width: 483.63px;
+    height: 200px;
+    background: #1E4681;
+    border-radius: 5px;
+    padding: 18.88px 20.63px 0 32.42px;
+    margin-left: 403px;
+    margin-right: 553.37;
+    margin-top: 68px;
+    
+}
+
+#header .author .text {
+    width: 430.59px;
+    height: 113px;
+    font-size: 25px;
+    line-height: 130%;
+    font-family: 'Roboto Slab', serif;
+    color: #FFFFFF;
+}
+
+#header .author .name {
+    width: 280.5px;
+    height: 45.64px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: 161px;
+}
+
+
+
 
 
 
@@ -27,18 +172,20 @@ text-decoration: none;
 /* Herkes öz yaratdığı sectionu responsive olaraq css-ni burda qeyd edəcək.
 container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verildiyi ölçülərdir. */
 
-@media only screen and (min-width:991px)  and ( max-width:1279px ) {
-    .container{
-        width:834px;
-        height:3800px;
-    } 
+@media only screen and (min-width:991px) and (max-width:1279px) {
+    .container {
+        /* width:834px; */
+        width: 100%;
+        height: 3800px;
+    }
 }
 
 
-@media only screen and (min-width:320px) and ( max-width:991px ) {
-    .container{
-        width:375px;
-        height:4524px;
-   
+@media only screen and (min-width:320px) and (max-width:991px) {
+    .container {
+        /* width:375px; */
+        width: 100%;
+        height: 4524px;
+
     }
 }
