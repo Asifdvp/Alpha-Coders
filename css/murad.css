@@ -1,0 +1,143 @@
+
+#fifth-section .fifth-section {
+    width: 100%;
+    padding: 12.431% 27.639% 12.847% 8.472%;
+    background-color: #9DC9C8;
+}
+
+#fifth-section .fifth-section .main-title {
+    width: 63.056vw;
+    height: 4.583vw;
+    font-weight: bold;
+    font-size: 3.819vw;
+    line-height: 101.38%;
+    font-family: 'Roboto Slab', serif;
+}
+
+#fifth-section .fifth-section .price .description {
+    width: 11.806vw;
+    height: 2.222vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.736vw;
+    line-height: 101.38%;
+    margin-top: 3.750vw;
+}
+
+#fifth-section .fifth-section .price .value {
+    width: 33.403vw;
+    height: 12.569vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.556vw;
+    line-height: 101.38%;
+    font-weight: 400;
+}
+
+#fifth-section .fifth-section .services {
+    display: flex;
+    margin-top: -2vw;
+
+}
+
+#fifth-section .fifth-section .services .first-service .title {
+    width: 20.417vw;
+    height: 2.222vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.736vw;
+    line-height: 101.38%;
+}
+
+#fifth-section .fifth-section .services .explanation {
+    width: 20.417vw;
+    height: 4.861vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.250vw;
+    line-height: 101.38%;
+    margin-top: 0.625vw;
+}
+
+#fifth-section .fifth-section .services .second-service .title {
+    width: 22.361vw;
+    height: 2.222vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.736vw;
+    line-height: 101.38%;
+}
+
+#fifth-section .fifth-section .services .first-service {
+    margin-right: 4.861vw;
+}
+
+
+
+/* Herkes öz yaratdığı sectionu responsive olaraq css-ni burda qeyd edəcək.
+container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verildiyi ölçülərdir. */
+
+@media only screen and (min-width:991px) and (max-width:1279px) {
+    .container {
+
+        height: 3800px;
+    }
+
+    #fifth-section .fifth-section {
+        padding: 12.430% 28.472% 12.848% 8.472%;
+    }
+
+
+}
+
+@media only screen and (min-width:320px) and (max-width:991px) {
+    
+    #fifth-section .fifth-section {
+        padding: 16.533% 8.533% 16.800% 9.333%;
+    }
+
+    #fifth-section .fifth-section .main-title {
+        width: 59.733vw;
+        height: 16.800vw;
+        font-size: 6.933vw;
+        margin-right: 0;
+    }
+
+    #fifth-section .fifth-section .price .description {
+        width: 21.125vw;
+        height: 3.976vw;
+        font-size: 3.200vw;
+        margin-top: 5.955vw;
+    }
+
+    #fifth-section .fifth-section .price .value {
+        width: 59.768vw;
+        height: 22.491vw;
+        font-size: 9.867vw;
+    }
+
+    #fifth-section .fifth-section .services .first-service .title {
+        width: 36.533vw;
+        height: 3.976vw;
+        font-size: 3.200vw;
+    }
+
+    #fifth-section .fifth-section .services .second-service .title {
+        width: 40.267vw;
+        height: 3.733vw;
+        font-size: 3.200vw;
+    }
+
+    #fifth-section .fifth-section .services .explanation {
+        width: 36.800vw;
+        height: 12.533vw;
+        font-size: 2.667vw;
+        margin-top: 1.216vw;
+    }
+
+
+    #fifth-section .fifth-section .services .first-service {
+        margin-right: 8.267vw;
+    }
+
+}
+
+
+
+
+
