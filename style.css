@@ -270,7 +270,6 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
     }
 @media only screen and (min-width:320px) and (max-width:991px) {
     .container {
-        /* width:375px; */
         width: 100%;
         height: 4524px;
     }
@@ -292,7 +291,6 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
     }
     #header .first-parameter img {
         width: 2.73vw;
-
         height: 2.6106vw;
     }
     #header .second-parameter img {
@@ -303,7 +301,6 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
         width: 2.4853vw;
         height: 2.73vw;
     }
-
     #header .carousel {
         flex-direction: column;
     }
@@ -320,7 +317,7 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
     #header .carousel .right {
         margin-left: 44.26vw;
     }
-    .carousel-image img {
+    #header .carousel-image img {
         width: 37.7546vw;
         height: 46.693vw;
     }
