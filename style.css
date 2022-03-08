@@ -3,42 +3,234 @@
     padding: 0;
     list-style-type: none;
     box-sizing: border-box;
-text-decoration: none;
+    text-decoration: none;
 }
 .container{
     box-sizing: border-box;
-    width: 1440px;
+   width: 100%;
     height: 6575px;
 }
+#fourth-section{
+    padding: 6.319vw 22.986vw 7.708vw 8.750vw;
+    background: #EFEFEF;
+}
+#fourth-section .title{
+    width: 68.542vw;  
+    height: 6.458vw;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.819vw;
+    line-height: 101.38%;
+    margin-bottom: 2.361vw;
+}
 
+#fourth-section .articl{
+    padding-left: 0.278vw;
+}
+#fourth-section .divTwo{
+    width: 54.931vw;
+     height: 31.319vw;
+     background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(223, 202, 202, 0.25);
+    border-radius: 2.083vw;
+    padding: 2.778vw 3.194vw 0.694vw 1.806vw;
+    margin-bottom: 7.708vwpx;
+}
+.textOne{
+width: 48.611vw;
+height: 14.097vw;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 1.389vw;
+line-height: 150%;
+color: #000000;
+padding-left: 1.319vw;
+padding-right: 3.194vw;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.titleTwo{
+ width: 24.514vw;
+ height: 4.097vw; 
+font-family: Roboto Slab;
+ font-style: normal;
+font-weight: bold;
+font-size: 2.083vw;
+line-height: 101.38%;
+ color: #000000;
+}
+.imageTwo{
+width: 2.222vw;
+height: 2.153vw;
+}
+.divItems{
+    display: flex;
+}
+.imageDiv{ 
+    width: 13.194vw;
+    height: 11.736vw;
+   margin-right: 2.083vw;
+   padding-bottom: 2.014vw;
+}
+.divThree{
+    width: 24.514vw;
+    display: flex;
+    margin-left: 2.083vw;
+    padding-top: 2.778vw;
+    flex-direction: column;
+}
 /* Herkes öz yaratdığı sectionu responsive olaraq css-ni burda qeyd edəcək.
 container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verildiyi ölçülərdir. */
 
 @media only screen and (min-width:991px)  and ( max-width:1279px ) {
     .container{
-        width:834px;
+        box-sizing: border-box; 
         height:3800px;
     } 
+    #fourth-section{
+        padding: 6.319vw 22.986vw 7.709vw 8.749vw;
+        background: #EFEFEF;
+    }
+    #fourth-section .title{
+        width: 68.542vw;
+        height: 6.458vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.837vw;
+        line-height: 101.38%;
+        margin-bottom: 2.361vw;
+    }
+   
+    #fourth-section .divTwo{
+        width: 54.930vw;
+        height: 31.319vw;
+        background: #FFFFFF;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        padding: 2.778vw 3.194vw 2.014vw 1.806vw;
+    }
+    #fourth-section   .textOne{
+     width: 48.612vw;
+    height:14.097vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.439vw;
+    line-height: 150%;
+    color: #000000;
+    padding-left: 26.06px;
+    }
+
+    #fourth-section   .titleTwo{
+        width: 24.514vw;
+        height: 4.097vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.038vw;
+        line-height: 101.38%;
+        color: #000000;
+    }
+    #fourth-section   .imageTwo{
+        width: 2.222vw;
+        height: 2.152vw;
+        }
+        #fourth-section   .divItems{
+        display: flex;
+    }
+    #fourth-section   .image{ 
+        width: 13.194vw;
+        height: 11.736vw;
+        margin-top: 0.694vw;
+     }
+     #fourth-section    .divThree{
+        display: flex;
+        margin-left: 2.084vw;
+        padding-top: 3.472vw;
+        flex-direction: column;
+    }
+
+    
+
+
+
+
 }
 
 
 @media only screen and (min-width:320px) and ( max-width:991px ) {
     .container{
-        width:375px;
+       
         height:4524px;
    
+    }
+    #fourth-section{
+        padding: 11.170vw 8.511vw 14.096vw 9.574vw;
+        background: #EFEFEF;
+    }
+    #fourth-section .title{
+        width: 68.351vw;
+         height: 18.351vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 6.915vw;
+        line-height: 101.38%;
+        margin-bottom:2.926vw;
+        
+    }
+   
+    #fourth-section .divTwo{
+        width: 81.915vw;
+        height: 65.957vw;
+        background: #FFFFFF;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 3.718vw;
+         padding: 4.912vw 5.585vw 3.457vw 5.585vw;
+    }
+    #fourth-section  .textOne{
+    width: 70.745vw;
+     height: 29.524vw;
+     font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.660vw;
+    line-height: 150%;
+    color: #000000;
+    padding-left: 5.585vw;
+    padding-right: 5.585vw;
+    }
+
+    #fourth-section  .titleTwo{
+        width: 43.747vw;
+        height: 8.705vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.723vw;
+        line-height: 101.38%;
+        color: #000000;
+    }
+    #fourth-section  .imageTwo{
+        width: 3.965vw;
+        height: 4.574vw;
+        }
+        #fourth-section  .divItems{
+        display: flex;
+       }
+
+       #fourth-section  .image{ 
+        width: 21.277vw;
+        height: 22.340vw;
+        padding-top: 5.723vw;
+        
+         }
+         #fourth-section  .divThree{
+        display: flex;
+        margin-left: 4.622vw;
+        padding-top: 7.702vw;
+        flex-direction: column;
     }
 }
