@@ -1,0 +1,203 @@
+#header .header {
+    padding: 1.4583% 17.083% 0 8.472%;
+    height: auto;
+}
+#header .logo {
+    width: 7.7vw;
+    height: 4.583vw;
+    margin-bottom: 6.736vw;
+}
+#header .logo img {
+    width: 100%;
+}
+#header .first-parameter, .second-parameter, .third-parameter {
+    display: flex;
+    align-items: center;
+}
+#header .first-parameter {
+    margin-right: 1.736vw;
+}
+#header .online-courses, .time, .calendar {
+    width: 9.027vw;
+    height: 2.22vw;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 3px;
+}
+#header .parametres {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.38vw;
+}
+#header .first-parameter img {
+    width: 1.527vw;
+    height: 1.4583vw;
+    margin-right: 0.55vw;
+}
+#header .second-parameter img {
+    width: 1.527vw;
+    height: 1.527vw;
+    margin-right: 0.694vw;
+}
+#header .third-parameter img {
+    width: 1.38vw;
+    height: 1.527vw;
+    margin-right: 0.9027vw;
+}
+#header .carousel {
+    display: flex;
+    margin-top: 2.0138vw;
+}
+#header .carousel .left h1 {
+    width: 43.61vw;
+    height: 13.194vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 5.55vw;
+    line-height: 101.38%;
+}
+#header .carousel .left p {
+    width: 28.75vw;
+    height: 4.305vw;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.38vw;
+    line-height: 150%;
+}
+#header .carousel .right {
+    margin-left: 9.72vw;
+}
+#header .carousel-image {
+    position: relative;
+}
+#header .carousel-image img {
+    width: 21.11vw;
+    height: 24.72vw;
+}
+#header .carousel-image .carousel-ellipse {
+    width: 19.027vw;
+    height: 2.8472vw;
+    background: #EFEFEF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -0.694vw;
+    left: 2.7vw;
+    z-index: -1;
+}
+#header .carousel .right {
+    margin-top: -1.805vw;
+}
+#header .author {
+    width: 33.5854vw;
+    height: 13.88vw;
+    background: #1E4681;
+    border-radius: 5px;
+    padding: 1.3375vw 1.87638vw 0 1.807638vw;
+    margin-left: 20.027083vw;
+    margin-right: 20.90138vw;
+    margin-top: 4.69583vw;
+}
+#header .author .text {
+    width: 29.902083vw;
+    height: 7.8472vw;
+    font-size: 1.7361vw;
+    line-height: 130%;
+    font-family: 'Roboto Slab', serif;
+    color: #FFFFFF;
+}
+#header .author .name {
+    width: 19.47916vw;
+    height: 3.1694vw;
+    font-weight: normal;
+    font-size: 1.38vw;
+    line-height: 130%;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: 11.0125vw;
+    margin-top: 1.5361vw;
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (min-width:991px) and (max-width:1279px) {
+    #header .header {       
+        padding: 1.4583% 17.0839% 0 8.4028%;      
+    }  
+}
+@media only screen and (min-width:320px) and (max-width:991px) {
+    #header .header {
+        padding: 9.6% 8.6186% 0 9.33%;
+    }
+    #header .logo {
+        margin-bottom: 12.0053vw;
+        width: 13.9173vw;
+        height: 8.2vw;
+    }
+    #header .online-courses, .time, .calendar {
+        width: 16.1546vw;
+        height: 3.976vw;
+        padding-bottom: 2px;
+    }
+    #header .parametres {
+        font-size: 2.66vw;
+    }
+    #header .first-parameter img {
+        width: 2.73vw;
+        height: 2.6106vw;
+    }
+    #header .second-parameter img {
+        width: 2.73vw;
+        height: 2.73vw;
+    }
+    #header .third-parameter img {
+        width: 2.4853vw;
+        height: 2.73vw;
+    }
+
+    #header .carousel {
+        flex-direction: column;
+    }
+    #header .carousel .left h1 {
+        width: 77.86vw;
+        height: 23.608vw;
+        font-size: 9.86vw;
+    }
+    #header .carousel .left p {
+        width: 56.64vw;
+        height: 7.72vw;
+        font-size: 2.6vw;
+    }
+    #header .carousel .right {
+        margin-left: 44.26vw;
+    }
+   #header .carousel-image img {
+        width: 37.7546vw;
+        height: 46.693vw;
+    }
+    #header .carousel-image .carousel-ellipse {
+        width: 34.048vw;
+        height: 5.093vw;
+    }
+    #header .author {
+        width: 60.096vw;
+        height: 24.8506vw;
+        padding: 2.392vw 3.3573vw 0 3.2346vw;
+        margin-left: 0.7946vw;
+        margin-right: 21.1573vw;
+        margin-top: 10.304vw;
+    }
+    #header .author .text {
+        width: 53.504vw;
+        height: 14.04vw;
+        font-size: 2.93vw;
+    }
+    #header .author .text span {
+        display: block;
+    }
+    #header .author .name {
+        width: 34.853vw;
+        height: 5.672vw;
+        font-size: 2.66vw;
+        margin-left: 19.984vw;
+        margin-top: 1.8453vw;
+    }
+}
