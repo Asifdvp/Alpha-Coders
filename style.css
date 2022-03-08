@@ -20,7 +20,7 @@
 .container {
     box-sizing: border-box;
     width: 100%;
-    height: 6575px;
+    height: auto;
 }
 /* Herkes öz yaratdığı sectionu responsive olaraq css-ni burda qeyd edəcək.
 container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verildiyi ölçülərdir. */
@@ -28,13 +28,13 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
     .container {
         /* width:834px; */
         width: 100%;
-        height: 3800px;
+        height: auto;
     }
   }
 @media only screen and (min-width:320px) and (max-width:991px) {
     .container {
         width: 100%;
-        height: 4524px;
+        height: auto;
     }
    
   
