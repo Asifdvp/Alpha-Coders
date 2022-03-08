@@ -37,7 +37,7 @@
     padding: 2.778vw 3.194vw 0.694vw 1.806vw;
     margin-bottom: 7.708vwpx;
 }
-.textOne{
+#fourth-section .textOne{
 width: 48.611vw;
 height: 14.097vw;
 font-family: Roboto;
@@ -50,7 +50,7 @@ padding-left: 1.319vw;
 padding-right: 3.194vw;
 
 }
-.titleTwo{
+#fourth-section .titleTwo{
  width: 24.514vw;
  height: 4.097vw; 
 font-family: Roboto Slab;
@@ -60,20 +60,20 @@ font-size: 2.083vw;
 line-height: 101.38%;
  color: #000000;
 }
-.imageTwo{
+#fourth-section .imageTwo{
 width: 2.222vw;
 height: 2.153vw;
 }
 .divItems{
     display: flex;
 }
-.imageDiv{ 
+#fourth-section  .imageDiv{ 
     width: 13.194vw;
     height: 11.736vw;
    margin-right: 2.083vw;
    padding-bottom: 2.014vw;
 }
-.divThree{
+#fourth-section  .divThree{
     width: 24.514vw;
     display: flex;
     margin-left: 2.083vw;
