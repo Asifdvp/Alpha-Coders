@@ -1,0 +1,206 @@
+
+#fourth-section{
+    padding: 6.319vw 22.986vw 7.708vw 8.472vw    ;
+    background: #EFEFEF;
+}
+#fourth-section .title{
+    width: 68.542vw;  
+    height: 6.458vw;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 3.819vw;
+    line-height: 101.38%;
+    margin-bottom: 2.361vw;
+}
+
+
+#fourth-section .divTwo{
+    margin-left:0.278vw;
+    width: 54.931vw;
+     height: 31.319vw;
+     background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(223, 202, 202, 0.25);
+    border-radius: 2.083vw;
+    padding: 2.778vw 3.194vw 2.014vw  3.125vw;
+    margin-bottom: 7.708vw;
+}
+#fourth-section .textOne{
+width: 48.611vw;
+height: 14.097vw;
+font-family: Roboto;
+font-weight: normal;
+font-size: 1.389vw;
+line-height: 150%;
+color: #000000;
+/* padding-left: 1.319vw;
+padding-right: 3.194vw; */
+
+}
+#fourth-section .titleTwo{
+ width: 24.514vw;
+ height: 4.097vw; 
+font-family: Roboto Slab;
+ font-style: normal;
+font-weight: bold;
+font-size: 2.083vw;
+line-height: 101.38%;
+ color: #000000;
+}
+#fourth-section .imageTwo{
+width: 2.222vw;
+height: 2.153vw;
+}
+.divItems{
+    display: flex;
+}
+#fourth-section  .imageDiv{ 
+    width: 13.194vw;
+    height: 11.736vw;
+   margin-right: 2.083vw;
+   padding-bottom: 2.014vw;
+}
+#fourth-section  .divThree{
+    width: 24.514vw;
+    display: flex;
+    margin-left: 2.083vw;
+    padding-top: 2.778vw;
+    flex-direction: column;
+}
+
+ 
+@media only screen and (min-width:991px)  and ( max-width:1279px ) {
+    .container{
+        box-sizing: border-box; 
+        height:3800px;
+    } 
+    #fourth-section{
+        padding: 6.319vw 22.986vw 7.709vw 8.749vw;
+        background: #EFEFEF;
+    }
+    #fourth-section .title{
+        width: 68.542vw;
+        height: 6.458vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.837vw;
+        line-height: 101.38%;
+        margin-bottom: 2.361vw;
+    }
+   
+    #fourth-section .divTwo{
+        width: 54.930vw;
+        height: 31.319vw;
+        background: #FFFFFF;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        padding: 2.778vw 3.194vw 2.014vw 1.806vw;
+    }
+    #fourth-section   .textOne{
+     width: 48.612vw;
+    height:14.097vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.439vw;
+    line-height: 150%;
+    color: #000000;
+     /* padding-left: 3.125vw; */
+    }
+
+    #fourth-section   .titleTwo{
+        width: 24.514vw;
+        height: 4.097vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.038vw;
+        line-height: 101.38%;
+        color: #000000;
+    }
+    #fourth-section   .imageTwo{
+        width: 2.222vw;
+        height: 2.152vw;
+        }
+        #fourth-section   .divItems{
+        display: flex;
+    }
+    #fourth-section   .image{ 
+        width: 13.194vw;
+        height: 11.736vw;
+        margin-top: 0.694vw;
+     }
+     #fourth-section    .divThree{
+        display: flex;
+        margin-left: 2.084vw;
+        padding-top: 3.472vw;
+        flex-direction: column;
+    }}
+@media only screen and (min-width:320px) and ( max-width:991px ) {
+    .container{
+        height:4524px;
+   
+    }
+    #fourth-section{
+        padding: 11.170vw 8.511vw 14.096vw 9.574vw;
+        background: #EFEFEF;
+    }
+    #fourth-section .title{
+        width: 68.351vw;
+         height: 18.351vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 6.915vw;
+        line-height: 101.38%;
+        margin-bottom:2.926vw;
+        
+    }
+   
+    #fourth-section .divTwo{
+        width: 81.915vw;
+        height: 65.957vw;
+        background: #FFFFFF;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 3.718vw;
+         padding: 4.912vw 5.585vw 0 5.585vw;
+    }
+    #fourth-section  .textOne{
+    width: 70.745vw;
+     height: 29.524vw; 
+    font-size: 2.660vw;
+    margin-bottom:5.600vw  ;
+    }
+
+    #fourth-section  .titleTwo{
+        width: 43.747vw;
+        height: 8.705vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.723vw;
+        line-height: 101.38%;
+        color: #000000;
+    }
+    #fourth-section  .imageTwo{
+        width: 3.965vw;
+        height: 4.574vw;
+        }
+        #fourth-section  .divItems{
+        display: flex;
+              
+       }
+
+       #fourth-section  .image{ 
+        width: 21.277vw;
+        height: 22.340vw;
+        
+        
+         }
+         #fourth-section  .divThree{
+        display: flex;
+        margin-left: 4.622vw;
+        padding-top: 4.800vw;
+        flex-direction: column;
+    }
+}
