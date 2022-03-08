@@ -80,9 +80,6 @@ height: 2.153vw;
     padding-top: 2.778vw;
     flex-direction: column;
 }
-/* Herkes öz yaratdığı sectionu responsive olaraq css-ni burda qeyd edəcək.
-container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verildiyi ölçülərdir. */
-
 @media only screen and (min-width:991px)  and ( max-width:1279px ) {
     .container{
         box-sizing: border-box; 
@@ -120,7 +117,7 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
     font-size: 1.439vw;
     line-height: 150%;
     color: #000000;
-    padding-left: 26.06px;
+     padding-left: 3.125vw;
     }
 
     #fourth-section   .titleTwo{
@@ -150,19 +147,9 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
         margin-left: 2.084vw;
         padding-top: 3.472vw;
         flex-direction: column;
-    }
-
-    
-
-
-
-
-}
-
-
+    }}
 @media only screen and (min-width:320px) and ( max-width:991px ) {
     .container{
-       
         height:4524px;
    
     }
