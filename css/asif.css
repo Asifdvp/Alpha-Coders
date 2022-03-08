@@ -136,7 +136,11 @@ height: 4.8453vw;
 padding-left: 1px;
 margin-bottom: 3.976vw;
 }
-
+#third-section .cards .card .card-footer #card-h3{
+    margin-bottom: 0;
+    height: 8.800vw    ;
+    margin-bottom: 2px;
+    }
 #third-section .cards .card .card-footer .card-h3 h3{
 font-size: 3.733vw;
 }
