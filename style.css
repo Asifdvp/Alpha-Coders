@@ -292,7 +292,6 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
     }
     #header .first-parameter img {
         width: 2.73vw;
-
         height: 2.6106vw;
     }
     #header .second-parameter img {
@@ -455,130 +454,93 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
 
 /*  **********second section*********** */
 
-
-#head1 {
-  /* position: absolute; */
+#second-section{
+  margin-top: 11.250vw;
+  padding: 0 23.889vw 0 8.403vw;
+}
+#second-section #head1 {
   width : 46.319vw;
   height: 6.458vw;
-  margin: 138.889vw 45.278vw 311.250vw 8.403vw;
-
   font-family: Roboto Slab;
-  font-style : normal;
   font-weight: bold;
-  font-size  : 55px;
+  font-size  : 3.819vw  ;
   line-height: 101.38%;
+  margin-bottom: 6.181vw  ;
 }
-
-#first-header {
-  /* position: absolute; */
-  width : 10.417vw;
-  height: 2.708vw;
-  margin: 151.528vw 81.111vw 302.361vw 8.472vw;
-
+#second-section .content{
+  display: flex;
+  margin-bottom: 12.431vw  ;
+}
+#second-section .content div h4{
+  font-size  : 1.736vw;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 130%;
+  color: #1E4681;
+}
+#second-section .content div p{
+  font-size  : 1.250vw;
   font-family: Roboto;
   font-style : normal;
-  font-weight: bold;
-  font-size  : 25px;
+  font-weight: normal;
   line-height: 130%;
-  color      : #1E4681;
 }
-
-#first-p {
-  /* position: absolute; */
+#second-section .content  #first-header {
+ 
+  margin-right: 13.542vw;
+  width : 10.417vw;
+  height: 2.708vw;
+}
+#second-section .content  #first-p {
   width : 15.486vw;
   height: 2.708vw;
-  margin: 154.306vw 76.042vw 299.583vw 8.472vw;
-
-  font-family: Roboto;
-  font-style : normal;
-  font-weight: normal;
-  font-size  : 18px;
-  line-height: 130%;
 }
-
-#second-header {
-  /* position: absolute; */
+#second-section .content #second-header {
   width : 14.861vw;
   height: 2.708vw;
-  margin: 151.528vw 52.708vw 302.361vw 32.431vw;
-
-  font-family: Roboto;
-  font-style : normal;
-  font-weight: bold;
-  font-size  : 25px;
-  line-height: 130%;
-  color      : #1E4681;
+  margin-right: 11.806vw
 }
 
-#second-p {
-  /* position: absolute; */
+#second-section .content #second-p {
   width : 18.819vw;
   height: 7.569vw;
-  margin: 154.306vw 48.750vw 294.722vw 32.431vw;
-
-  font-family: Roboto;
-  font-style : normal;
-  font-weight: normal;
-  font-size  : 18px;
-  line-height: 130%;
 }
 
-#third-header {
-  /* position: absolute; */
+#second-section .content  #third-header {
   width : 10.417vw;
   height: 2.708vw;
-  margin: 151.528vw 30.486vw 302.361vw 59.097vw;
-
-
-  font-family: Roboto;
-  font-style : normal;
-  font-weight: bold;
-  font-size  : 25px;
-  line-height: 130%;
-  color      : #1E4681;
 }
-
-#third-p {
-  /* position: absolute; */
+#second-section .content #third-p {
   width : 17.014vw;
   height: 2.708vw;
-  margin: 154.306vw 23.889vw 299.583vw 59.097vw;
-
-  font-family: Roboto;
-  font-style : normal;
-  font-weight: normal;
-  font-size  : 18px;
-  line-height: 130%;
 }
 
-#head2 {
+#second-section #head2 {
   /* position: absolute; */
   width : 46.319vw;
   height: 6.458vw;
-  margin: 174.306vw 45.278vw 275.833vw 8.403vw;
-
-
+margin-bottom: 1.458vw;
   font-family: Roboto Slab;
-  font-style : normal;
-  font-weight: bold;
-  font-size  : 55px;
+  font-size  : 3.819vw;
   line-height: 101.38%;
 }
 
-.siyahi {
+#second-section .siyahi {
   /* position: absolute; */
   width : 45.972vw;
   height: 25.972vw;
-  margin: 182.222vw 44.444vw 248.403vw 9.583vw;
-
+  margin-left: 1.181vw  ;
+}
+#second-section .siyahi ul li{
+  list-style-type: disc;
   font-family: Roboto;
-  font-style : normal;
-  font-weight: normal;
-  font-size  : 24px;
+  font-size  : 1.667vw;
   line-height: 150%;
 }
-
-@media only screen and (min-width:991px) and (max-width:1279px) {
+#second-section .siyahi ul li .po{
+  margin-right: 3.750vw ;
+}
+/* @media only screen and (min-width:991px) and (max-width:1279px) { */
 
   /* .container {
       
@@ -587,250 +549,244 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
 
   } */
 
-  #head1 {
+  /* #head1 {
 
-      /* position: absolute; */
+    
       width      : 51.507vw;
       height     : 7.181vw;
-      margin     : 155.756vw 50.349vw 343.729vw 9.344vw;
+   
       font-family: Roboto Slab;
       font-style : normal;
       font-weight: bold;
-      font-size  : 32px;
+     
       line-height: 101.38%;
   }
 
   #first-header {
-      /* position: absolute; */
+   
       width      : 11.584vw;
       height     : 3.012vw;
-      margin     : 169.811vw 90.196vw 333.844vw 9.421vw;
+    
       font-family: Roboto;
       font-style : normal;
       font-weight: bold;
-      font-size  : 15px;
+     
       line-height: 130%;
-      /* or 19px */
+     
       color      : #1E4681;
   }
 
   #first-p {
 
-      /* position: absolute; */
+     
       width      : 20.4vw;
       height     : 2.933vw;
-      margin     : 172.933vw 81.333vw 330.8vw 9.467vw;
+    
       font-family: Roboto;
       font-style : normal;
       font-weight: normal;
-      font-size  : 11px;
+      
       line-height: 130%;
   }
 
   #second-header {
-      /* position: absolute; */
+     
       width      : 16.525vw;
       height     : 3.012vw;
-      margin     : 169.811vw 58.612vw 333.844vw 36.063vw;
+    
       font-family: Roboto;
       font-style : normal;
       font-weight: bold;
-      font-size  : 15px;
+     
       line-height: 130%;
-      /* or 19px */
+     
 
       color: #1E4681;
   }
 
   #second-p {
-      /* position: absolute; */
+    
       width      : 22.933vw;
       height     : 8.4vw;
-      margin     : 172.933vw 52.267vw 325.333vw 36vw;
+   
       font-family: Roboto;
       font-style : normal;
       font-weight: normal;
-      font-size  : 11px;
+      
       line-height: 130%;
   }
 
   #third-header {
-      /* position: absolute; */
+    
       width      : 11.584vw;
       height     : 3.012vw;
-      margin     : 169.811vw 33.9vw 333.844vw 65.716vw;
+    
       font-family: Roboto;
       font-style : normal;
       font-weight: bold;
-      font-size  : 15px;
+      
       line-height: 130%;
-      /* or 19px */
+    
       color      : #1E4681;
   }
 
   #third-p {
-      /* position: absolute; */
+     
       width      : 18.92vw;
       height     : 3.012vw;
-      margin     : 172.9vw 26.564vw 330.756vw 65.716vw;
+
       font-family: Roboto;
       font-style : normal;
       font-weight: normal;
-      font-size  : 11px;
+     
       line-height: 130%;
   }
 
   #head2 {
-      /* position: absolute; */
+     
       width      : 51.507vw;
       height     : 7.181vw;
-      margin     : 195.14vw 50.349vw 304.345vw 9.344vw;
+    
       font-family: Roboto Slab;
       font-style : normal;
       font-weight: bold;
-      font-size  : 32px;
+      
       line-height: 101.38%;
   }
 
   .siyahi {
-      /* position: absolute; */
+      
       width      : 51.121vw;
       height     : 28.881vw;
-      margin     : 203.943vw 49.423vw 273.843vw 10.656vw;
+     
       font-family: Roboto;
       font-style : normal;
       font-weight: normal;
-      font-size  : 14px;
+     
       line-height: 150%;
   }
 
-}
-
+} */
+/* 
 @media only screen and (min-width:320px) and (max-width:991px) {
 
-  /* .container {
-      
-      width : 375px;
-      height: 4524px;
-
-  } */
-
+  
   #head1 {
-      /* position: absolute; */
+    
       width      : 41.44vw;
       height     : 5.779vw;
-      margin     : 1.744vw 3.76vw 423.021vw 4.8vw;
+     
       font-family: Roboto Slab;
       font-style : normal;
       font-weight: bold;
-      font-size  : 26px;
+     
       line-height: 101.38%;
   }
 
   #first-header {
-      /* position: absolute; */
+     
       width      : 9.32vw;
       height     : 2.423vw;
-      margin     : 182.4vw 36.013vw 418.377vw 4.667vw;
+     
       font-family: Roboto;
       font-style : normal;
       font-weight: bold;
-      font-size  : 12px;
+     
       line-height: 130%;
-      /* or 16px */
+     
       color      : #1E4681;
   }
 
   #first-p {
-      /* position: absolute; */
+     
       width      : 24vw;
       height     : 6.4vw;
-      margin     : 184.933vw 21.333vw 411.867vw 4.667vw;
+     
       font-family: Roboto;
       font-style : normal;
       font-weight: normal;
-      font-size  : 10px;
+      
       line-height: 130%;
   }
 
   #second-header {
-      /* position: absolute; */
+   
       width      : 13.296vw;
       height     : 2.423vw;
-      margin     : 192.667vw 31.987vw 408.111vw 4.717vw;
+     
       font-family: Roboto;
       font-style : normal;
       font-weight: bold;
-      font-size  : 12px;
+     
       line-height: 130%;
-      /* or 16px */
+     
 
       color: #1E4681;
   }
 
   #second-p {
-      /* position: absolute; */
+      
       width      : 22vw;
       height     : 6.8vw;
-      margin     : 195.2vw 23.333vw 401.2vw 4.667vw;
+   
       font-family: Roboto;
       font-style : normal;
       font-weight: normal;
-      font-size  : 10px;
+     
       line-height: 130%;
   }
 
   #third-header {
-      /* position: absolute; */
+     
       width      : 9.32vw;
       height     : 2.423vw;
-      margin     : 204.533vw 35.88vw 396.244vw 4.8vw;
+     
       font-family: Roboto;
       font-style : normal;
       font-weight: bold;
-      font-size  : 12px;
+     
       line-height: 130%;
-      /* or 16px */
+     
       color      : #1E4681;
   }
 
   #third-p {
-      /* position: absolute; */
+      
       width      : 21.2vw;
       height     : 4.133vw;
-      margin     : 207.067vw 24vw 392vw 4.8vw;
+    
       font-family: Roboto;
       font-style : normal;
       font-weight: normal;
-      font-size  : 10px;
+     
       line-height: 130%;
   }
 
   #head2 {
-      /* position: absolute; */
+ 
       width      : 41.44vw;
       height     : 5.779vw;
-      margin     : 220.933vw 3.76vw 376.488vw 4.8vw;
+    
       font-family: Roboto Slab;
       font-style : normal;
       font-weight: bold;
-      font-size  : 26px;
+     
       line-height: 101.38%;
   }
 
   .siyahi {
-      /* position: absolute; */
+    
       width      : 39.867vw;
       height     : 23.2vw;
-      margin     : 228vw 4.267vw 352vw 5.867vw;
+    
       font-family: Roboto;
       font-style : normal;
       font-weight: normal;
-      font-size  : 12px;
+      
       line-height: 150%;
       list-style-type:disc;
       
   }
 
 
-}
+} */
