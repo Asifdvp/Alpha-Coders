@@ -14,10 +14,13 @@
     font-family: 'Roboto Slab', serif;
 }
 
+#fifth-section .fifth-section .price .description, .value, .services .first-service .title, .services .explanation, .second-service .title{
+    font-family: 'Roboto', sans-serif;
+}
+
 #fifth-section .fifth-section .price .description {
     width: 11.806vw;
     height: 2.222vw;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.736vw;
     line-height: 101.38%;
     margin-top: 3.750vw;
@@ -26,7 +29,6 @@
 #fifth-section .fifth-section .price .value {
     width: 33.403vw;
     height: 12.569vw;
-    font-family: 'Roboto', sans-serif;
     font-size: 5.556vw;
     line-height: 101.38%;
     font-weight: 400;
@@ -35,13 +37,11 @@
 #fifth-section .fifth-section .services {
     display: flex;
     margin-top: -2vw;
-
 }
 
 #fifth-section .fifth-section .services .first-service .title {
     width: 20.417vw;
     height: 2.222vw;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.736vw;
     line-height: 101.38%;
 }
@@ -49,7 +49,6 @@
 #fifth-section .fifth-section .services .explanation {
     width: 20.417vw;
     height: 4.861vw;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.250vw;
     line-height: 101.38%;
     margin-top: 0.625vw;
@@ -58,7 +57,6 @@
 #fifth-section .fifth-section .services .second-service .title {
     width: 22.361vw;
     height: 2.222vw;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.736vw;
     line-height: 101.38%;
 }
@@ -72,21 +70,13 @@
 /* Herkes öz yaratdığı sectionu responsive olaraq css-ni burda qeyd edəcək.
 container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verildiyi ölçülərdir. */
 
-@media only screen and (min-width:991px) and (max-width:1279px) {
-    .container {
-
-        height: 3800px;
-    }
-
+@media only screen and (min-width:992px) and (max-width:1279px) {
     #fifth-section .fifth-section {
         padding: 12.430% 28.472% 12.848% 8.472%;
     }
-
-
 }
 
 @media only screen and (min-width:320px) and (max-width:991px) {
-    
     #fifth-section .fifth-section {
         padding: 16.533% 8.533% 16.800% 9.333%;
     }

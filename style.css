@@ -24,9 +24,8 @@
 }
 /* Herkes öz yaratdığı sectionu responsive olaraq css-ni burda qeyd edəcək.
 container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verildiyi ölçülərdir. */
-@media only screen and (min-width:991px) and (max-width:1279px) {
+@media only screen and (min-width:992px) and (max-width:1279px) {
     .container {
-        /* width:834px; */
         width: 100%;
         height: auto;
     }
@@ -36,8 +35,7 @@ container sabit qalacaq çünki standart oalraq tablet,smartfonun figmada verild
         width: 100%;
         height: auto;
     }
-   
-  
+
 }
 
 
