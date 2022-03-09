@@ -50,11 +50,12 @@
 .divItems {
   display: flex;
 }
-#fourth-section .imageDiv {
+#fourth-section .image {
   width: 13.194vw;
   height: 11.736vw;
   margin-right: 2.083vw;
-  padding-bottom: 2.014vw;
+  /* padding-bottom: 2.014vw; */
+  
 }
 #fourth-section .divThree {
   width: 24.514vw;
