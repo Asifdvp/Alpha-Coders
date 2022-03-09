@@ -7,8 +7,8 @@
     height: 6.4583vw;
     margin-top: 12.039vw;
   }
-  #first-section .header h1 {
-    font-family: Roboto Slab;
+  #first-section .header h2 {
+    font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 3.8194vw;
@@ -25,7 +25,7 @@
     position: relative;
   }
   #first-section .main .article p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.7vw;
@@ -89,7 +89,7 @@
     height: 5.4861vw;
   }
   #first-section .footer h3{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 1.7361vw;
@@ -99,7 +99,7 @@
     height: 2.7083vw;
   }
   #first-section .footer p{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.25vw;
@@ -133,8 +133,8 @@
         height: 11.5573vw;
         margin-top: 20vw;
       }
-      #first-section .header h1 {
-        font-family: Roboto Slab;
+      #first-section .header h2 {
+        font-family: 'Roboto Slab', serif;
         font-style: normal;
         font-weight: bold;
         font-size: 6.93vw;
@@ -151,7 +151,7 @@
         position: relative;
       }
       #first-section .main .article p {
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 3.2vw;
@@ -211,7 +211,7 @@
         height: 9.87vw;
       }
       #first-section .footer h3{
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-weight: bold;
         font-size: 3.2vw;
         margin-bottom:0.2213vw;
@@ -220,7 +220,7 @@
         height: 4.8453vw;
       }
       #first-section .footer p{
-      font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
       font-size: 2.7vw;
       line-height: 130%;
       }

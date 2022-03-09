@@ -6,7 +6,7 @@
 #fourth-section .title{
     width: 68.542vw;  
     height: 6.458vw;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 3.819vw;
     line-height: 101.38%;
@@ -27,7 +27,7 @@
 #fourth-section .textOne{
 width: 48.611vw;
 height: 14.097vw;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-weight: normal;
 font-size: 1.389vw;
 line-height: 150%;
@@ -39,7 +39,7 @@ padding-right: 3.194vw; */
 #fourth-section .titleTwo{
  width: 24.514vw;
  height: 4.097vw; 
-font-family: Roboto Slab;
+ font-family: 'Roboto Slab', serif;
  font-style: normal;
 font-weight: bold;
 font-size: 2.083vw;
@@ -80,7 +80,7 @@ height: 2.153vw;
     #fourth-section .title{
         width: 68.542vw;
         height: 6.458vw;
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab', serif;
         font-style: normal;
         font-weight: bold;
         font-size: 3.837vw;
@@ -99,7 +99,7 @@ height: 2.153vw;
     #fourth-section   .textOne{
      width: 48.612vw;
     height:14.097vw;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.439vw;
@@ -111,7 +111,7 @@ height: 2.153vw;
     #fourth-section   .titleTwo{
         width: 24.514vw;
         height: 4.097vw;
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab', serif;
         font-style: normal;
         font-weight: bold;
         font-size: 2.038vw;
@@ -148,7 +148,7 @@ height: 2.153vw;
     #fourth-section .title{
         width: 68.351vw;
          height: 18.351vw;
-        font-family: Roboto Slab;
+         font-family: 'Roboto Slab', serif;
         font-style: normal;
         font-weight: bold;
         font-size: 6.915vw;
@@ -175,7 +175,7 @@ height: 2.153vw;
     #fourth-section  .titleTwo{
         width: 43.747vw;
         height: 8.705vw;
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab', serif;
         font-style: normal;
         font-weight: bold;
         font-size: 3.723vw;

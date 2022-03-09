@@ -7,7 +7,7 @@
   #second-section #head1 {
     width : 46.319vw;
     height: 6.458vw;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size  : 3.819vw  ;
     line-height: 101.38%;
@@ -19,14 +19,14 @@
   }
   #second-section .content div h4{
     font-size  : 1.736vw;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     line-height: 130%;
     color: #1E4681;
   }
   #second-section .content div p{
     font-size  : 1.250vw;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style : normal;
     font-weight: normal;
     line-height: 130%;
@@ -66,7 +66,7 @@
     width : 46.319vw;
     height: 6.458vw;
   margin-bottom: 1.458vw;
-    font-family: Roboto Slab;
+  font-family: 'Roboto Slab', serif;
     font-size  : 3.819vw;
     line-height: 101.38%;
   }
@@ -79,7 +79,7 @@
   }
   #second-section .siyahi ul li{
     list-style-type: disc;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size  : 1.667vw;
     line-height: 150%;
   }
